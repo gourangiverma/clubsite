@@ -16,12 +16,10 @@ const Home = () => {
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   <span className="text-foreground">Electrical</span><br />
                   <span className="text-foreground">Engineering</span><br />
-                  <span className="text-foreground">&amp; Computer</span><br />
-                  <span className="text-foreground">Science</span><br />
                   <span className="gradient-text">Club</span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-lg">
-                  Innovate. Build. Connect.
+                  Power the Future. Design Circuits. Engineer Tomorrow.
                 </p>
               </div>
               
@@ -52,10 +50,10 @@ const Home = () => {
                     <h3 className="text-lg font-semibold text-primary">Next Event</h3>
                     <div className="space-y-3">
                       <h4 className="text-xl font-bold text-foreground">
-                        Machine Learning Workshop
+                        PCB Design Workshop
                       </h4>
                       <p className="text-muted-foreground">
-                        Learn the fundamentals of neural networks and implement your first ML model!
+                        Learn circuit design principles and create your first printed circuit board from scratch!
                       </p>
                       
                       <div className="space-y-2">
