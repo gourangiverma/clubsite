@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CheckCircle, Calendar, MapPin } from "lucide-react";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
 
 const Join = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ const Join = () => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -50,19 +51,42 @@ const Join = () => {
       return;
     }
 
-    // Here you would typically submit to your backend
-    toast.success("Application submitted successfully! We'll get back to you soon.");
-    
-    // Reset form
-    setFormData({
-      fullName: "",
-      rollNumber: "",
-      department: "",
-      yearOfStudy: "", 
-      reason: "",
-      githubProfile: "",
-      linkedinProfile: ""
-    });
+    try {
+      // Submit to Supabase
+      const { error } = await supabase
+        .from('applications')
+        .insert({
+          full_name: formData.fullName,
+          roll_number: formData.rollNumber,
+          department: formData.department,
+          year_of_study: formData.yearOfStudy,
+          reason: formData.reason || null,
+          github_profile: formData.githubProfile || null,
+          linkedin_profile: formData.linkedinProfile || null
+        });
+
+      if (error) {
+        console.error('Error submitting application:', error);
+        toast.error("Failed to submit application. Please try again.");
+        return;
+      }
+
+      toast.success("Application submitted successfully! We'll get back to you soon.");
+      
+      // Reset form
+      setFormData({
+        fullName: "",
+        rollNumber: "",
+        department: "",
+        yearOfStudy: "", 
+        reason: "",
+        githubProfile: "",
+        linkedinProfile: ""
+      });
+    } catch (error) {
+      console.error('Error submitting application:', error);
+      toast.error("Failed to submit application. Please try again.");
+    }
   };
 
   return (
