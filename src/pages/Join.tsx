@@ -29,11 +29,8 @@ const Join = () => {
   ];
 
   const departments = [
-    "Computer Science",
-    "Electrical Engineering", 
-    "Electronics & Communication",
-    "Information Technology",
-    "Other"
+    "Engineering Science",
+    "BSMS Natural Sciences"
   ];
 
   const years = ["1st Year", "2nd Year", "3rd Year", "4th Year", "5th Year"];
