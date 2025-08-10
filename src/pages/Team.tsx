@@ -20,7 +20,7 @@ const Team = () => {
   const coordinator1 = {
   name: "Mohammed Ruvaifa",
   role: "Coordinator",
-  department: "Engineering Sciencess",
+  department: "Engineering Sciences",
   year: "2nd Year",
   image: teamMember1, // Replace with coordinator image
   bio: "Compiler crashes, me too. Just a techie guy trying to make things work, emotionally if not electrically. I like building projects which has practical uses and can create an impact. Also I love F1 (cars go in circles, fastest car wins)",
@@ -71,7 +71,7 @@ const coordinators = [coordinator1, coordinator2];
       year: "2nd Year",
       image: teamMember3,
       bio: "I'm Shubham, a robotics enthusiast who loves building RC cars with Arduino—next up, a battle-ready robot car.When I'm not wiring circuits, I'm capturing moments through my smartphone.",
-      github: "rahulgupta",
+      github: "",
       linkedin: "https://www.linkedin.com/in/shubham-b8b3422b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       email: "shubh24@iiserb.ac.in"
     },
@@ -93,7 +93,7 @@ const coordinators = [coordinator1, coordinator2];
       year: "2nd Year",
       image: teamMember7,
       bio: "I’ve always been curious about science, especially astronomy and philosophy, and I find tech fascinating for how seamlessly it integrates into everything around us.",
-      github: "rahulgupta",
+      github: "",
       linkedin: "linkedin.com/in/vanshmangal",
       email: "vanshm24@iiserb.ac.in"
     },
@@ -126,8 +126,8 @@ const coordinators = [coordinator1, coordinator2];
       year: "3rd Year",
       image: teamMember12,
       bio: "ECE by degree, chaos and foodie. I like building stuff, fixing things, and occasionally pretending I know nothing about what’s going on.",
-      github: "rahulgupta",
-      linkedin: "rahulgupta",
+      github: "",
+      linkedin: "",
       email: "agolika23@iiserb.ac.in"
     },
     {
@@ -148,7 +148,7 @@ const coordinators = [coordinator1, coordinator2];
       year: "3rd Year",
       image: teamMember13,
       bio: "A third year EECS major. Likes tinkering with stuff, making grand plans, reading, and watching anime in his free time. Also believes all time is free if you ignore responsibilities well enough.",
-      github: "rahulgupta",
+      github: "",
       linkedin: "linkedin.com/in/divyam-sood",
       email: "divyam23@iiserb.ac.in"
     },
@@ -159,8 +159,8 @@ const coordinators = [coordinator1, coordinator2];
       year: "2nd Year",
       image: teamMember10,
       bio: "I’m into tech that messes with audio—both the digital and hardware. I love how twisting electrical signals totally changes or shapes the sound, and how analog or digital systems create those wild, unique textures that hit different. and also, i like gaming too.",
-      github: "rahulgupta",
-      linkedin: "linkedin.com/in/divyam-sood",
+      github: "",
+      linkedin: "",
       email: "yashmeet24@iiserb.ac.in"
     }
   ];
