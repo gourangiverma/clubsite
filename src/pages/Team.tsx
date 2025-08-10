@@ -5,12 +5,22 @@ import teamMember1 from "@/assets/Ruvaifa_image.jpg";
 import teamMember2 from "@/assets/Dharani_image.jpeg";
 import teamMember3 from "@/assets/Shubham.jpg";
 import teamMember4 from "@/assets/Profile - Aryan Sanjot.jpg";
+import teamMember5 from "@/assets/gourangi_image.jpg";
+import teamMember6 from "@/assets/pranay_image.png";
+import teamMember7 from "@/assets/vanshm_image.jpg";
+import teamMember8 from "@/assets/anmol_image.jpg";
+import teamMember9 from "@/assets/prajyot_image.png";
+import teamMember10 from "@/assets/yashmeet_image.jpg";
+import teamMember11 from "@/assets/nikhil_image.jpg";
+import teamMember12 from "@/assets/agolika_image.png";
+import teamMember13 from "@/assets/divyam_image.jpg";
+
 
 const Team = () => {
   const coordinator1 = {
   name: "Mohammed Ruvaifa",
   role: "Coordinator",
-  department: "Engineering Science",
+  department: "Engineering Sciencess",
   year: "2nd Year",
   image: teamMember1, // Replace with coordinator image
   bio: "Compiler crashes, me too. Just a techie guy trying to make things work, emotionally if not electrically. I like building projects which has practical uses and can create an impact. Also I love F1 (cars go in circles, fastest car wins)",
@@ -19,15 +29,15 @@ const Team = () => {
   email: "mohammad24@iiserb.ac.in"
 };
 const coordinator2 = {
-  name: "B. Coordinator",
+  name: "Pranay Meshram",
   role: "Coordinator",
   department: "Natural Sciences",
   year: "3rd Year",
-  image: teamMember2, // Replace with coordinator image
-  bio: "Co-lead of the EECS Club. Loves organizing and mentoring.",
-  github: "https://github.com/coordinator2",
-  linkedin: "https://linkedin.com/in/coordinator2",
-  email: "coordinator2@iiserb.ac.in"
+  image: teamMember6, // Replace with coordinator image
+  bio: "git pushin’ my love for tech",
+  github: "https://github.com/praymesh/",
+  linkedin: "https://www.linkedin.com/in/pranay-meshramiiserb/",
+  email: "pranay23@iiserb.ac.in"
 };
 const coordinators = [coordinator1, coordinator2];
 
@@ -35,18 +45,18 @@ const coordinators = [coordinator1, coordinator2];
     {
       name: "Gourangi Verma",
       role: "Core Committee Member",
-      department: "Engineering Science",
-      year: "2th Year",
-      image: teamMember1,
-      bio: "I like math and computer science, and solving problems which require a bit of both. Most of the time, you might find me staring at the screen, trying to make sense of what just happened. When I'm not struggling with a problem, I'm probably watching anime or playing videogames.",
-      github: "github.com/gourangiverma",
-      linkedin: "https://www.linkedin.com/in/gourangi-verma-b2629b311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      department: "Engineering Sciences",
+      year: "2nd Year",
+      image: teamMember5,
+      bio: "I like math and computer science, and solving problems which require a bit of both. Most of the time, you might find me staring at the screen, trying to make sense of what just happened.",
+      github: "https://github.com/gourangiverma",
+      linkedin: "https://www.linkedin.com/in/gourangi-verma-b2629b311/",
       email: "gourangi24@iiserb.ac.in"
     },
     {
       name: "Dharani Thota",
       role: "Core Committee Member",
-      department: "Engineering Science",
+      department: "Engineering Sciences",
       year: "2nd Year",
       image: teamMember2,
       bio: "I'm a tech enthusiast, space freak. Exploring the world is my jam. I never back down from a challenge. Avid anime watcher.",
@@ -55,7 +65,7 @@ const coordinators = [coordinator1, coordinator2];
       email: "thota24@iiserb.ac.in"
     },
     {
-      name: "Shubham ",
+      name: "Shubham",
       role: "Core Committee Member",
       department: "Natural Sciences",
       year: "2nd Year",
@@ -68,7 +78,7 @@ const coordinators = [coordinator1, coordinator2];
     {
       name: "Aryan Sanjot",
       role: "Core Committee Member",
-      department: "Engineering Science",
+      department: "Engineering Sciences",
       year: "2nd Year",
       image: teamMember4,
       bio: "Hi! I'm Aryan, a curious mind in the domain of technology and physics. I love to mix tech and creativity and always up for learning .",
@@ -77,37 +87,81 @@ const coordinators = [coordinator1, coordinator2];
       email: "aryans24@iiserb.ac.in"
     },
     {
-      name: "Aryan Sanjot",
+      name: "Vansh Mangal",
       role: "Core Committee Member",
-      department: "Engineering Science",
+      department: "Natural Sciences",
       year: "2nd Year",
-      image: teamMember4,
-      bio: "Hi! I'm Aryan, a curious mind in the domain of technology and physics. I love to mix tech and creativity and always up for learning .",
-      github: "https://github.com/iaryan4",
-      linkedin: "https://www.linkedin.com/in/aryan-sanjot-81826032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "aryans24@iiserb.ac.in"
+      image: teamMember7,
+      bio: "I’ve always been curious about science, especially astronomy and philosophy, and I find tech fascinating for how seamlessly it integrates into everything around us.",
+      github: "rahulgupta",
+      linkedin: "linkedin.com/in/vanshmangal",
+      email: "vanshm24@iiserb.ac.in"
     },
     {
-      name: "Aryan Sanjot",
+      name: "Prajyot Nula",
       role: "Core Committee Member",
-      department: "Engineering Science",
+      department: "Engineering Sciences",
       year: "2nd Year",
-      image: teamMember4,
-      bio: "Hi! I'm Aryan, a curious mind in the domain of technology and physics. I love to mix tech and creativity and always up for learning .",
-      github: "https://github.com/iaryan4",
-      linkedin: "https://www.linkedin.com/in/aryan-sanjot-81826032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "aryans24@iiserb.ac.in"
+      image: teamMember9,
+      bio: "Hey this is Prajyot Nula, a robotics enthusiast who also enjoys machine learning and computer vision.",
+      github: "https://github.com/thymeprn",
+      linkedin: "linkedin.com/in/prajyot-nula",
+      email: "prajyot24@iiserb.ac.in"
     },
     {
-      name: "Aryan Sanjot",
+      name: "Nikhil Vashisht",
       role: "Core Committee Member",
-      department: "Engineering Science",
+      department: "Engineering Sciencess",
       year: "2nd Year",
-      image: teamMember4,
-      bio: "Hi! I'm Aryan, a curious mind in the domain of technology and physics. I love to mix tech and creativity and always up for learning .",
-      github: "https://github.com/iaryan4",
-      linkedin: "https://www.linkedin.com/in/aryan-sanjot-81826032a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      email: "aryans24@iiserb.ac.in"
+      image: teamMember11,
+      bio: "Hey everyone! I'm fascinated by the big picture – from the fundamental laws of physics to the elegant logic of mathematics. My passion lies in connecting those worlds to the practical magic of computer science and AI",
+      github: "https://github.com/nikhilcodes777",
+      linkedin: "https://www.linkedin.com/in/nikhil-vashisht-9b4415337",
+      email: "nikhilv24@iiserb.ac.in"
+    },
+    {
+      name: "Agolika",
+      role: "Core Committee Member",
+      department: "Engineering Sciences",
+      year: "3rd Year",
+      image: teamMember12,
+      bio: "ECE by degree, chaos and foodie. I like building stuff, fixing things, and occasionally pretending I know nothing about what’s going on.",
+      github: "rahulgupta",
+      linkedin: "rahulgupta",
+      email: "agolika23@iiserb.ac.in"
+    },
+    {
+      name: "Anmol Agarwal",
+      role: "Core Committee Member",
+      department: "Engineering Sciences",
+      year: "3rd Year",
+      image: teamMember8,
+      bio: "neural nets make my brain go brr.",
+      github: "https://github.com/anm-ol",
+      linkedin: "https://www.linkedin.com/in/anmol-agrawal-2a4892250/",
+      email: "anmol23@iiserb.ac.in"
+    },
+    {
+      name: "Divyam Sood",
+      role: "Core Committee Member",
+      department: "Engineering Sciences",
+      year: "3rd Year",
+      image: teamMember13,
+      bio: "A third year EECS major. Likes tinkering with stuff, making grand plans, reading, and watching anime in his free time. Also believes all time is free if you ignore responsibilities well enough.",
+      github: "rahulgupta",
+      linkedin: "linkedin.com/in/divyam-sood",
+      email: "divyam23@iiserb.ac.in"
+    },
+    {
+      name: "Yashmeet",
+      role: "Core Committee Member",
+      department: "Engineering Sciences",
+      year: "2nd Year",
+      image: teamMember10,
+      bio: "I’m into tech that messes with audio—both the digital and hardware. I love how twisting electrical signals totally changes or shapes the sound, and how analog or digital systems create those wild, unique textures that hit different. and also, i like gaming too.",
+      github: "rahulgupta",
+      linkedin: "linkedin.com/in/divyam-sood",
+      email: "yashmeet24@iiserb.ac.in"
     }
   ];
 
